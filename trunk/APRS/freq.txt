@@ -1,0 +1,57 @@
+Partlist
+
+Exported from freq.sch at 01.05.2007 06:44:48 
+
+EAGLE Version 4.16r1 Copyright (c) 1988-2006 CadSoft
+
+Part     Value          Device             Package      Library         Sheet
+
+C1       330pF          C-2.5-5/5          C2.5/5-5     capacitor-wima  1
+C2       1000pF         C-2.5-5/5          C2.5/5-5     capacitor-wima  1
+C3       330pF          C-2.5-5/5          C2.5/5-5     capacitor-wima  1
+C4       1000pF         C-2.5-5/5          C2.5/5-5     capacitor-wima  1
+C5       0.1uF          C-2.5-5/5          C2.5/5-5     capacitor-wima  1
+C6       0.01uF         C-2.5-5/5          C2.5/5-5     capacitor-wima  1
+C7       22uF           CPOL-EUE2.5-5      E2,5-5       rcl             1
+C8       27pF           C-EU025-024X044    C025-024X044 rcl             1
+C9       27pF           C-EU025-024X044    C025-024X044 rcl             1
+C10                     CPOL-EUE2,5-6E     E2,5-6E      rcl             1
+C11                     CPOL-EUE2,5-6E     E2,5-6E      rcl             1
+C12      0.1uF          C-2.5-5/5          C2.5/5-5     capacitor-wima  1
+C13      0.1uF          C-2.5-5/5          C2.5/5-5     capacitor-wima  1
+D1       1N5711         1N4148             DO35-10      diode           1
+D2       1N5711         1N4148             DO35-10      diode           1
+D3       1N5711         1N4148             DO35-10      diode           1
+D4       1N5711         1N4148             DO35-10      diode           1
+D5       1N4001         1N4004             DO41-10      diode           1
+D6       1N5226         ZENER-DIODEDO35Z10 DO35Z10      diode           1
+D7       1N5226         ZENER-DIODEDO35Z10 DO35Z10      diode           1
+GND                     WIREPAD2,54/0,8    2,54/0,8     wirepad         1
+GND-IN1                 WIREPAD2,54/0,8    2,54/0,8     wirepad         1
+GND-IN2                 WIREPAD2,54/0,8    2,54/0,8     wirepad         1
+GND1                    WIREPAD2,54/0,8    2,54/0,8     wirepad         1
+IC1      PIC16F88       PIC16F84AP         DIL18        microchip       1
+IC2      7805L          7805L              TO92         linear          1
+IC5                     MCT12080SO8-DIP8W  SO08-DIP8W   aprs            1
+IC5-B    MC12080        ADAPT-SO8          ADAPT-SO08   Adapt-SO        1
+JP1                     PINHD-1X16         1X16         pinhead         1
+OSC                     WIREPAD2,54/0,8    2,54/0,8     wirepad         1
+OSC#                    WIREPAD2,54/0,8    2,54/0,8     wirepad         1
+OSC#-C                  WIREPAD2,54/0,8    2,54/0,8     wirepad         1
+OSC-C                   WIREPAD2,54/0,8    2,54/0,8     wirepad         1
+Q1       2N5485         2N3819             TO92         transistor-fet  1
+Q2       2N3663         2N3704             TO92         transistor-npn  1
+Q3       20MHz          CRYSTALHC49U70     HC49U70      crystal         1
+R1       47             R-EU_0207/10       0207/10      rcl             1
+R2       47             R-EU_0207/10       0207/10      rcl             1
+R3       1K             R-EU_0207/10       0207/10      rcl             1
+R4       1M             R-EU_0207/10       0207/10      rcl             1
+R5       1K             R-EU_0207/10       0207/10      rcl             1
+R6       15K            R-EU_0207/10       0207/10      rcl             1
+R7       1K             R-EU_0207/10       0207/10      rcl             1
+R8                      TRIM_EU-PT10       PT-10        pot             1
+R9       10K            R-EU_0207/10       0207/10      rcl             1
+RA0                     2,54/0,8           2,54/0,8     wirepad         1
+RA1                     2,54/0,8           2,54/0,8     wirepad         1
+U1       SA602          DIL8S              SOCKED-08    ic-package      1
+X1                      MPT2               2POL254      con-phoenix-254 1

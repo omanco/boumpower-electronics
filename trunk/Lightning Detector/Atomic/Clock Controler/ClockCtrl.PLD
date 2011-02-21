@@ -1,0 +1,48 @@
+Name       ClockCtrl;
+Partno     XXXXX;
+Date       12/07/07;
+Revision   01;
+Designer   Anonymous;
+Company    XXXXX;
+Assembly   XXXXX;
+Location   XXXXX;
+Device    g16v8a;
+/* Device     v750c; */
+
+/** Inputs **/
+
+PIN     1   = clk;		/* 32 MHz input freq */
+PIN     2   = adjdir;	/* Add - Skip  */
+PIN     3   = adjclk;
+
+/** Outputs **/
+
+PIN     14  = clkout;	/* Clock Compensed output ClkIn div 4 */
+
+PIN [15..17] = [Q2..0];
+
+PINNODE 33  = Q3;		/* Latch compensation pulse */
+
+field counter = [Q2..0];        $define S0 'b'000$define S1 'b'001$define S2 'b'010$define S3 'b'011$define S4 'b'100   
+
+field mode = [Q3,AdjDir];
+Normal = mode:[0..1];
+Slower = mode:2;
+Faster = mode:3;
+
+sequence counter {
+  present S0 
+    next S1;
+  present S1
+    next S2;
+  present S2
+    if Slower next S0; /* Skip one clock pulse */
+    if Normal next S3;
+    if Faster next S3;
+  present S3 
+    if Faster next S0; /* Add one clock pulse */
+    if Normal next S0;
+    if Slower next S4;
+  PRESENT S4
+    NEXT S0;
+}
