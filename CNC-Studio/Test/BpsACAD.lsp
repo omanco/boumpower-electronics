@@ -1,5 +1,0 @@
-(vl-load-com)
-(vl-load-all "BpsKernel-2k4")
-(defun S::STARTUP()
-  (prompt "\nStartup BpsACAD")
-) 
