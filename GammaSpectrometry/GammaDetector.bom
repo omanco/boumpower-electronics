@@ -1,0 +1,27 @@
+Partlist exported from C:/Documents and Settings/Olivier/Mes documents/GammaSpectrometry/GammaDetector.sch at 27.05.2011 14:56:40
+
+Qty Value        Device        Parts                    
+1                BPW32         PIN0                     
+1                LEDIRL80A     PIN                      
+5   0.01uF       C-USC0805     C2, C7, C10, C13, C20    
+6   0.1uF        C-USC0805     C1, C4, C8, C12, C14, C21
+2   0.22uF       C-USC0805K    C16, C17                 
+1   1M           R-US_R0805    R2                       
+1   1N914        1N4148DO35-10 D1                       
+5   1k           R-US_R0805    R5, R7, R9, R14, R15     
+1   4.7pF (1)    C-USC0805     C3                       
+2   4.7uF        C-USC1210K    C18, C19                 
+2   10M          R-US_R0805    R1, R4                   
+1   10k          R-TRIMM3224G  R13                      
+5   10k          R-US_R0805    R6, R8, R10, R16, R17    
+1   20k          R-US_R0805    R3                       
+1   100k         R-US_R0805    R11                      
+4   100pF        C-USC0805     C6, C9, C11, C22         
+1   150k         R-US_R0805    R12                      
+1   1000pF       C-USC0805     C5                       
+1   BC337        BC337         Q1                       
+2   BU-SMA-G     BU-SMA-G      X3, X4                   
+1   MAX662CPA    MAX662CPA     IC5                      
+4   MAX4477      ICL7621SA     IC1, IC2, IC3, IC4       
+1   MICROMATCH-4 MICROMATCH-4  X1                       
+2   PTR1PAD1-13  PTR1PAD1-13   TP0, TP1                 
